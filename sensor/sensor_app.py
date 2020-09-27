@@ -1,3 +1,6 @@
+from load_data import load_sensor_data
+
+
 # Runner script for all modules
 
 
@@ -9,7 +12,8 @@ print("Sensor Data App")
 ##############################
 
 # Module 1 code here:
-
+data = load_sensor_data()
+print("Loaded records: {}".format(len(data)))
 # Module 2 code here:
 
 # Module 3 code here:
